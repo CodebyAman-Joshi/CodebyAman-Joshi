@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="portfolio.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/amanj.png" type="image/x-icon">
+
+    <title>Portfolio || AMAN </title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">AJ</p>
+            <span></span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                  <a href="#certificate" class="nav-link">Certificate</a>
+                  <div class="circle"></div>
+              </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+                <div id="theme-switch">
+                  <i class="fa-solid fa-moon"></i>
+                  <i class="fa-solid fa-sun"></i>
+                </div>
+            </ul>
+        </div>
+        <div class="nav-button">
+          <a href="assets/AMAN RESUME.pdf" target="_main"> <button class="btn">Download Resume <i class="uil uil-file-alt"></i> </a> </button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Aman</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>I am a Passionate Web Developer to Create a responsive and Creative website.</p>
+            </div>
+            <div class="featured-text-btn">
+              <a href="assets/AMAN RESUME.pdf" target="_main"> <button class="btn">Download Resume <i class="uil uil-file-alt"></i> </a> </button>
+            </div>
+            <div class="social_icons">
+                <div class="icon" ><a href="https://www.linkedin.com/in/aman-joshi-3100a3229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"target="main"><i class="uil uil-linkedin-alt"></i></a></div>
+                <div class="icon" ><a href="https://www.instagram.com/itz_aman_joshi_?igsh=MWVkY254cnkydjducQ=="><i class="uil uil-instagram"target="main"></i></a></div>
+                <div class="icon"  > <a href="https://github.com/aj909813?tab=projects"><i class="uil uil-github-alt"target="main"></i></a></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/amanj.png" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>I am a Frontend Web Developer & UI/UX DESIGNER & Undergraduate from geetanjali institute of technical studies in Computer Science.
+                      I am very passionate about imporving my coding skills & developing website. 
+                      I build website Frontend using HTML,CSS,js or React & Backend with Mysql and MongoDB. 
+                      I stay up-to-date with emerging Technologies.
+                      My passion for web development drive me to continously learn and grow as a developer.
+                    </p>
+                    <div class="about-btn">
+                      <a href="assets/AMAN RESUME.pdf" target="_main"> <button class="btn">Download Resume <i class="uil uil-file-alt"></i> </a> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+              
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>Sql</span>
+                        
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+              <i class="fa-solid fa-cloud"></i>
+                <h3>Wheather APP </h3>
+                <label>Using React js</label>&nbsp;
+                <button class="btn ">GO <i class="fa-solid fa-arrow-trend-up"></i></button>
+            </div>
+            <div class="project-box">
+              <i class="fa-brands fa-squarespace"></i>
+                <h3>WanderLust</h3>
+                <label>like Airbnb this is a FULL Stack Project(onGoing)</label> &nbsp;
+                <button class="btn ">GO <i class="fa-solid fa-arrow-trend-up"></i></button>
+            </div>
+            <div class="project-box">
+              <i class="fa-solid fa-calculator"></i>
+                <h3>Calculator</h3>
+                <label>using JavaScript</label>&nbsp;
+                <button class="btn"><a href="https://calculatoraj.netlify.app/" target="_main"> GO <i class="fa-solid fa-arrow-trend-up"></i> </a></button>
+            </div>
+            <div class="project-box">
+              <i class="fa-brands fa-figma"></i>
+                <h3>UI for Trading App</h3>
+                <label>Using Figma</label>&nbsp;
+                <button class="btn">GO <i class="fa-solid fa-arrow-trend-up"></i></button>
+            </div>
+          </div>
+       </section>
+
+
+       <!-- ==================================Certificate ================================ -->
+
+      <section class="cer" id="certificate">
+        <div class="top-header">
+          <h1>Certificate</h1>
+      </div>
+      <div class="certificate-container">
+        <div class="certificate">
+          <i  id="fa" class="fa-solid fa-certificate"></i><br/><br/>
+            <div class="certificate_img">
+              <img src="assets/c.jpg" alt="project"height="150" >
+            </div>
+            <hr> <br/>
+            <p>Complete of C Language from Duke University</p>
+            <a href="https://www.coursera.org/account/accomplishments/verify/JDJ3WP4FRPAR?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" target="_main"> <button class="btn">verify <i class="fa-solid fa-arrow-trend-up"></i></button> </a>
+        </div>
+
+
+        <div class="certificate">
+          <i id="fa" class="fa-solid fa-certificate"></i><br/><br/>
+          <div class="certificate_img">
+            <img src="assets/java.jpg" alt="project"height="150" >
+          </div>
+          <hr> <br/>
+          <p>Complete of java Language from GITS</p>
+      </div>
+
+      <div class="certificate">
+        <i id="fa"  class="fa-solid fa-certificate"></i><br/><br/>
+        <div class="certificate_img">
+          <img src="assets/matlab.jpg" alt="project"height="150" >
+        </div>
+        <hr> <br/>
+        <p>Complete of  Imag processing and machine learning using MATLAB By Cranes Varsity</p>
+    </div>
+
+    <div class="certificate">
+      <i id="fa" class="fa-solid fa-certificate"></i><br/><br/>
+      <div class="certificate_img">
+        <img src="assets/google.jpg" alt="project"height="150" >
+      </div>
+      <hr> <br/>
+      <p>Complete of Google Analytics from Google</p>
+      <a href="https://skillshop.credential.net/11e1cd53-ebcf-4054-a440-ed76879762f7" target="main"><button class="btn">verify <i class="fa-solid fa-arrow-trend-up"></i></button></a>
+      
+  </div>
+
+  <div class="certificate">
+    <i id="fa" class="fa-solid fa-certificate"></i><br/><br/>
+    <div class="certificate_img">
+      <img src="assets/inter.jpg" alt="project"height="150" >
+    </div>
+    <hr> <br/>
+    <p>Complete of Full Stack Web development Intershipe from unified mentor.</p>
+    <a href="https://unifiedmentor.com/verify-certificate/UMIP16264" target="_main"> <button class="btn">verify <i class="fa-solid fa-arrow-trend-up"></i></button> </a>
+</div>
+    </section>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Contact Me</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: aj909813@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> pho: +91 9828677190 </p>
+                </div>
+             </div>
+             <form  class="col" action="https://getform.io/f/byvvedwa" method="POST">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Name" name="name" required>
+                        <input type="text" class="input-field" placeholder="Email" name="email"required>
+                    </div>
+                    <div class="text-area">
+                        <textarea placeholder="Message" name="message"required></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+             </form>
+          </div>
+       </section>
+
+    </main>
+
+<hr/>
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Aman</p>
+        </div>
+        <!-- <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                  <a href="#certificate">Certificate</a>
+              </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div> -->
+        <div class="footer-social-icons">
+          <div class="icon" ><a href="https://www.linkedin.com/in/aman-joshi-3100a3229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"target="main"><i class="uil uil-linkedin-alt"></i></a></div>
+          <div class="icon" ><a href="https://www.instagram.com/itz_aman_joshi_?igsh=MWVkY254cnkydjducQ=="><i class="uil uil-instagram"target="main"></i></a></div>
+          <div class="icon"  > <a href="https://github.com/aj909813?tab=projects"><i class="uil uil-github-alt"target="main"></i></a></div>
+          <div class="icon"> <a href="https://www.aj909813@gmail.com" target="_main"> <i class="fa-solid fa-envelope"></i> </a> </div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Aman</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="portfolio.js"></script>
+</body>
+</html>
