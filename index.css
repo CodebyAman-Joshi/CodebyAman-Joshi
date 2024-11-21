@@ -825,9 +825,8 @@ hr{
 
 }
 
-.btn a{
+ .bttn a{
     text-decoration: none;
-    color: var(--color-white);
 }
 
 
