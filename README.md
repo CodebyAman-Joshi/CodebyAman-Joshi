@@ -12,8 +12,6 @@ I'm a passionate software developer with a strong interest in backend developer 
 ---
 ## ⚡ Technologies
 
----
-
 ### 🔗 Language
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
