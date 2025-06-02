@@ -80,9 +80,9 @@ A sleek and responsive Portfolio Website built to showcase my skills, projects, 
 
 👨‍💻 About Me section
 
-🛠️ Skills with icons or progress bars
+🛠️ Skills with icons.
 
-📁 Projects with links and screenshots
+📁 Projects with links.
 
 📞 Contact form (email integration via Formspree / EmailJS)
 
