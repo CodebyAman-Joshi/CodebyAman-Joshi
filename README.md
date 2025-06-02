@@ -1,4 +1,9 @@
 <h1 align="center">Hi 👋, I'm Aman</h1>
+
+[![Alt Text](./assets/pdesktop.png)](https://aj007.netlify.app)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aman-joshi-3100a3229)
+[![Gmail](https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](aj909813@gmail.com@email.com)
+
 ---
 <h2 align="center">🖇️ About Me</h1>
 
@@ -64,32 +69,14 @@ I'm a passionate software developer with a strong interest in backend developer 
 
 ## 📌 Pinned Repositories
 Here are a few notable projects:
-- 🧳 [Wanderlust Full Stack](https://github.com/aj990813/wanderlust)
-- 🌦️ [Weather React App](https://github.com/aj990813/weather-app)
-- 🌐 [Portfolio Website](https://github.com/CodebyAman-joshi/PORTFOLIO)
+- 🧳 [Wanderlust Full Stack](https://github.com/CodebyAman-Joshi/wanderlust)
+- 🌦️ [Weather React App](https://github.com/CodebyAman-Joshi/weather-app)
 
 ---
-
-📷 Screenshots
- 
-> ![Git Commands](./assets/pdesktop.png)
 
 A sleek and responsive Portfolio Website built to showcase my skills, projects, and background as a full-stack web developer. Designed with a focus on performance, minimalism, and mobile-first responsiveness.
 
 > 📌 Live Demo: https://aj007.netlify.app/
-
----
-
-🛠 Tech Stack
-
-Frontend: HTML, CSS, JavaScript
-
-Styling: Bootstrap / Custom CSS
-
-Icons: FontAwesome / React Icons
-
-Hosting: Hostinger / GitHub Pages / Vercel
-
 
 ---
 
