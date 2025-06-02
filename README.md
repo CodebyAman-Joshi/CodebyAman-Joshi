@@ -9,8 +9,6 @@
 
 I'm a passionate software developer with a strong interest in backend developer . I love building projects that solve real-world problems and continuously learning new technologies.
 
-- 📫 How to reach me: **aj909813@gmail.com**
-
 ---
 ## ⚡ Technologies
 
