@@ -4,7 +4,7 @@
 
 📷 Screenshots
  
-> (./assets/pdesktop.png)
+> ![Git Commands](./assets/pdesktop.png)
 
 A sleek and responsive Portfolio Website built to showcase my skills, projects, and background as a full-stack web developer. Designed with a focus on performance, minimalism, and mobile-first responsiveness.
 
