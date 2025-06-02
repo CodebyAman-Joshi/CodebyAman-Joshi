@@ -2,7 +2,7 @@
 
 [![Alt Text](./assets/pdesktop.png)](https://aj007.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aman-joshi-3100a3229)
-[![Gmail](https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](aj909813@gmail.com)
+[![Gmail](https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](aj909813@email.com)
 
 ---
 <h2 align="center">🖇️ About Me</h1>
